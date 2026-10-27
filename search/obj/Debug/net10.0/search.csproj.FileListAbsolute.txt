@@ -1,0 +1,15 @@
+E:\projects\week 4\task 4\search\obj\Debug\net10.0\search.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\week 4\task 4\search\obj\Debug\net10.0\search.AssemblyInfoInputs.cache
+E:\projects\week 4\task 4\search\obj\Debug\net10.0\search.AssemblyInfo.cs
+E:\projects\week 4\task 4\search\obj\Debug\net10.0\search.csproj.CoreCompileInputs.cache
+E:\projects\week 4\task 4\search\obj\Debug\net10.0\search.sourcelink.json
+E:\projects\week 4\task 4\search\bin\Debug\net10.0\search.exe
+E:\projects\week 4\task 4\search\bin\Debug\net10.0\search.deps.json
+E:\projects\week 4\task 4\search\bin\Debug\net10.0\search.runtimeconfig.json
+E:\projects\week 4\task 4\search\bin\Debug\net10.0\search.dll
+E:\projects\week 4\task 4\search\bin\Debug\net10.0\search.pdb
+E:\projects\week 4\task 4\search\obj\Debug\net10.0\search.dll
+E:\projects\week 4\task 4\search\obj\Debug\net10.0\refint\search.dll
+E:\projects\week 4\task 4\search\obj\Debug\net10.0\search.pdb
+E:\projects\week 4\task 4\search\obj\Debug\net10.0\search.genruntimeconfig.cache
+E:\projects\week 4\task 4\search\obj\Debug\net10.0\ref\search.dll
