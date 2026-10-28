@@ -26,11 +26,11 @@ if (choice == "2")
     {
         System.Console.WriteLine("Enter Your Word");
         string word = Console.ReadLine();
-        CheackTexts(word);
+        Cheackvowel(word.ToLower());
     }
     catch (Exception err)
     {
-
+        System.Console.WriteLine(err.Message);
     }
 }
 
@@ -66,31 +66,25 @@ void Number()
     }
 
 }
-void CheackTexts(string word)
+void Cheackvowel(string vowel)
 {
-    System.Console.WriteLine("Please Enter Your character");
-    List<string> str = new List<string>();
-    string choosestr1 = Console.ReadLine();
-    str.Add(choosestr1);
-    System.Console.WriteLine("Please Enter Your character");
-    string choosestr2 = Console.ReadLine();
-    str.Add(choosestr2);
-    System.Console.WriteLine("Please Enter Your character");
-    string chooseStr3 = Console.ReadLine();
-    str.Add(chooseStr3);
-    System.Console.WriteLine("Please Enter Your character");
-    string chooseStr4 = Console.ReadLine();
-    str.Add(chooseStr4);
-    for (int i = 0; i < str.Count; i++)
-    {
-        for (int j = 0; j < str.Count; j++)
-        {
-            if (i != j && str[i] == str[j])
-            {
+    bool status = false;
 
-                throw new Exception("this number was dublicated" + " " + str[i]);
-            }
+
+
+    for (int i = 0; i < vowel.Length; i++)
+    {
+
+        if (vowel[i] == 'a' || vowel[i] == 'e' || vowel[i] == 'i' || vowel[i] == 'o' || vowel[i] == 'u')
+        {
+            status = true;
+            System.Console.WriteLine($"have some vowel {vowel[i]}");
+
 
         }
+    }
+    if (status == false)
+    {
+        throw new Exception("Not Found Any Vowel");
     }
 }
